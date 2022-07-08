@@ -1,0 +1,39 @@
+.field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 700px;
+}
+
+.cell {
+    border: 1px solid black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.message-line, #text_top {
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: skyblue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#error {
+    color: red;
+    font-size: 12pt;
+}
